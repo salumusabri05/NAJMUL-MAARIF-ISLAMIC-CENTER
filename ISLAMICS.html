@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAJMUL MAARIF ISLAMIC CENTER</title>
+    <link rel="stylesheet" href="ISLAMICS.css">
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>Islamic Matters</h1>
+        <nav>
+            <ul>
+                <li><a href="KUHUSU_SISI.html">KUHUSU SISI</a></li>
+                <li><a href="NYUMBANI.html">NYUMBANI</a></li>
+                <li><a href="ISLAMICS.html">ISLAMICS</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<main>
+    <section id="recent-posts" class="posts">
+        <div class="container">
+            <h2>Recent Posts</h2>
+            <div class="post-list" id="recentPosts">
+                <!-- Recent posts will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+    <section id="featured-posts" class="posts">
+        <div class="container">
+            <h2>Featured Posts</h2>
+            <div class="post-list" id="featuredPosts">
+                <!-- Featured posts will be dynamically inserted here -->
+            </div>
+        </div>
+    </section>
+    <section id="submit-post" class="submit-post">
+        <div class="container">
+            <h2>Submit a New Post</h2>
+            <form id="postForm">
+                <label for="title">Title:</label>
+                <input type="text" id="title" name="title" required>
+                <label for="content">Content:</label>
+                <textarea id="content" name="content" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+</main>
+<footer>
+    <div class="container">
+        <p>&copy; 2024 Islamic Matters. All rights reserved.</p>
+    </div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
